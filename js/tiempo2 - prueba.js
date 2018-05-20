@@ -142,7 +142,7 @@ function imprimirApp(aInfo){
 
     //creo un bucle para poder imprimir la informacion de los tiempos
     for(var i = 1; i < aInfo.length; i++) {
-        //Las variables que habian aqui no eran inutiles, ya que se crearan adelante
+        
         var cajaInfo = document.createElement("div");
 
         //i<aInfo.length-1 para evitar undefined
